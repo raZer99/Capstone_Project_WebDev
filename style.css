@@ -1,0 +1,42 @@
+.gradient-background {
+    height: 100vh;
+    background: linear-gradient(300deg, #33f7b2,#bed65f, #d4aba6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+.lead{
+    font-size: 25px;
+}
+.skills{
+    height: 100vh;
+    background-color: #a1f7d9dd;
+}
+.skill{
+    display: flex;
+    flex-shrink: 50%;
+    margin-top: 20px;
+    font-size: 80px;
+    font-family: inherit;
+    font-weight: 500;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50;
+    margin-right: 50;
+}
+.grad{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+}
